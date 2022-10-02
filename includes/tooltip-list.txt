@@ -3,19 +3,18 @@
 *[API_SECRET]: password (min 12 characters) needed to access Nightscout Site
 *[Automatic Bolus]: provide a fraction of the recommended insulin automatically with each updated CGM reading (default 40%)
 *[BAGE]: pump battery age on Nightscout site
-*[Big Sur]: older version for operating system for Mac, macOS 11.x
+*[Big Sur]: older version of operating system for Mac, macOS 11.x
 *[BLE]: Bluetooth low energy, used for communication by phones, CGM and some pumps
 *[Build Select Script]: by running a command in your terminal, this menu-driven tool assists in building Loop
 *[branch]: version of code within a single repository or workspace repository
 *[CAGE]: cannula (or pump site) age on Nightscout site
 *[carthage]: a program that used to be required to build Loop - no longer needed
-*[Catalina]: older version for operating system for Mac, macOS 10.x
+*[Catalina]: older version of operating system for Mac, macOS 10.x
 *[Certificate]: Apple certificate is used to sign your iOS or Mac apps - tied to but different from your permanent Developer ID
 *[CGM]: continuous glucose monitor, wearable medical device that measures and reports glucose in interstitial fluid
 *[Closed Loop]: Loop will make automated adjustments of insulin delivery using predictions based off user entries, settings, IOB and COB
 *[clone]: create a copy of a repository on your computer including revision history and ability to update using git commands
-*[COB]: Carbs on Board, affects automated insulin delivery: the g of carbohydrates that Loop expects to be absorbed and uses for glucose prediction
-*[commit]: a change to the code
+*[COB]: Carbs on Board, affects automated insulin delivery: the g of carbohydrates that Loop expects to be absorbed and used for glucose prediction
 *[Config Vars]: configuration parameters for a Nightscout Site
 *[Correction Range]: Loop recommends changes to basal and / or bolus to bring glucose predictions into this range
 *[CR]: Carb Ratio; how many grams of carbs are covered by one unit of rapid-acting insulin
@@ -23,7 +22,7 @@
 *[DIA]: Duration of Insulin Action, the full time insulin is active including a long, low-level tail
 *[Dosing Strategy]: chosen method for increased insulin dosing: (1) High Temp Basal or (2) Automatic Bolus with scheduled basal
 *[dynos]: used to reboot a Nightscout Site
-*[EmaLink]: radio-frequency device Loop uses to control Eros pods and older Medtronic pumps
+*[EmaLink]: radio-frequency device Loop used to control Eros pods and older Medtronic pumps
 *[Event History]: record of pump events (bolus or temp basal) reported and used by Loop
 *[Expiration Date]: your Loop app has a finite life, the app warns you starting 3 weeks before the expiration date
 *[Finder]: graphical folder and file display on Mac
@@ -32,7 +31,7 @@
 *[git]: a tool for version control
 *[Glucose Chart]: Display of measured and predicted glucose values
 *[Glucose Safety Limit]: Loop will not suggest insulin delivery when glucose prediction (in next 3 hours) goes below this limit
-*[Guardrails]: limits in the code for user selected settings, recommended and absolute limits are provided
+*[Guardrails]: limits in the code for user selected settings; recommended and absolute limits are provided
 *[Hamburger Menu]: three parallel lines that, when tapped, open a new menu
 *[HUD]: Heads-Up Display at top of Loop main screen, phone in portrait mode
 *[ICE]: Insulin Counteraction Effect - Loop models the expected glucose change based on carbs entered, absorption time and your settings; and adjusts based on measured glucose
@@ -49,18 +48,18 @@
 *[Monterey]: operating system for Mac, macOS 12.x
 *[Omnipod]: Insulet tubeless insulin pump; Loop supports Eros (with RileyLink) and DASH
 *[Open Loop]: Loop will not make automated adjustments of insulin delivery but all prediction and recommendation features are available
-*[OrangeLink]: radio-frequency device Loop uses to control Eros pods and older Medtronic pumps
+*[OrangeLink]: radio-frequency device Loop used to control Eros pods and older Medtronic pumps
 *[OTP]: one-time password, this is used to enable caregivers to securely execute remote commands to a Looper's phone
 *[Override]: a modification to Loop settings that can change the correction range, the sensitivity (basal, ISF and CR) or both
 *[Package Dependencies]: packages that must be downloaded by Xcode (once) to build the app after downloading the LoopWorkspace to your computer
-*[pill]: on Nightscout, small boxes with information, tap for extra details
+*[pill]: on Nightscout, small boxes with information; tap for extra details
 *[PR]: Pull Request - a formal method to request changes to a repository
-*[Pre-Meal Range]: modify the correction range for up to one hour by tapping on an icon in the toolbar
+*[Pre-Meal Range]: modified correction range that can last for up to one hour; initiated by tapping on an icon in the toolbar
 *[Provisioning Profile]: associates your app with your Developer ID and limits app lifetime to 1 year (paid) or 1 week (free)
 *[Pull Request]: formal method to request changes to a repository
 *[Quit the Loop App]: quit out of the app - different from closing the app - typically you swipe up in the app switcher
 *[repository]: contains project files and each file's revision history
-*[RileyLink]: radio-frequency device Loop uses to control Eros pods and older Medtronic pumps
+*[RileyLink]: radio-frequency device Loop used to control Eros pods and older Medtronic pumps
 *[Rosetta]: allows apps built for older Macs (Intel chips) to run on newer Macs (M1 and M2 chips)
 *[SAGE]: sensor age on Nightscout site
 *[Signing Targets]: associate a Developer ID with an app; must sign all targets for a given app
@@ -74,4 +73,4 @@
 *[URL]: website address (Uniform Resource Locator)
 *[watchOS]: Apple watch operating system; must be compatible with phone iOS
 *[Workspace]: a grouping of several repositories into a complete package
-*[Xcode]: program used to build an app
+*[Xcode]: program used to build an app on Apple devices
